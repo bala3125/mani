@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: #00f0ff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin: 40px auto;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: white;
+  }
+  
+  section h2 {
+    color: #00f0ff;
+    border-bottom: 2px solid #00f0ff;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  .profile-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profile-pic {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #00f0ff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
